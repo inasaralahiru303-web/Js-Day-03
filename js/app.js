@@ -61,13 +61,23 @@ console.log(numbers);
 numbers.reverse();
 console.log(numbers);
 
+//--------- Filter ----------
 
+const productList =[
+    {name:"bun",inStock:true,price: 100},
+    {name:"milk",inStock:true,price: 200},
+    {name:"egg",inStock:false,price: 300},
+    {name:"bread",inStock:true,price: 400},
+    {name:"butter",inStock:false,price: 500},
+    {name:"chees",inStock:false,price: 600},
+];
 
+console.log(productList);
 
+let inStockProduckts = 
+    productList.filter(product => product.inStock == true);
 
-
-
-
+console.log(inStockProduckts);
 
 
 
