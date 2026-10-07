@@ -112,4 +112,13 @@ console.log(getTotal(2,5));
 let tetValue = tetValue=>{
     return tetValue;
 }
-console.log(tetValue("Hello Js"))
+console.log(tetValue("Hello Js"));
+
+
+// Arrays Sorting of Object
+
+const leterList = ["N","E","R","Q","T","A","S","O","K","M","P"];
+console.log(leterList);
+
+const sortArray = leterList.sort();
+console.log(sortArray);
