@@ -122,3 +122,24 @@ console.log(leterList);
 
 const sortArray = leterList.sort();
 console.log(sortArray);
+
+
+//---------- Maping ----------
+const salaryList = [50000,70000,80000,20000,90000];
+console.log(salaryList);
+let doubleSalary = salaryList.map(salary => salary*2);
+console.log(doubleSalary);
+//console.log(salaryList.map(salary => salary*2));
+
+//------ Find-Methord ------
+const studentList = [
+    {name: "Saman", age:45, gender: "male"},
+    {name: "Kumara", age:32, gender: "female"},
+    {name: "Lahiru", age:18, gender: "male"},
+    {name: "Ruvishan", age:23, gender: "male"},
+    {name: "Sasindu", age:87, gender: "female"},
+    {name: "Pahasara", age:91, gender: "male"}
+]
+let foundStudent = studentList.find(student => student.name == "Lahiru" );
+console.log(foundStudent);
+
