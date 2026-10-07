@@ -79,7 +79,37 @@ let inStockProduckts =
 
 console.log(inStockProduckts);
 
+//--------- Funtions ---------
+
+// - 1 methord
+function addNumbers(num1,num2){
+    return num1+ num2;
+}
+console.log(addNumbers(4,5));
 
 
+// - 2 methord
+let getSum = function(num01,num02){
+    return num01 + num02;
+}
+console.log(getSum(5,8));
 
 
+// - 3 methord arrow funtion
+let getTotal = (num1,num2) => {
+    return num1+num2;
+}
+console.log(getTotal(9,5));
+
+
+// - 4 method
+(num01,num02) => {
+    return num01+num02;
+}
+console.log(getTotal(2,5));
+
+// Arrow funtion with single parameter
+let tetValue = tetValue=>{
+    return tetValue;
+}
+console.log(tetValue("Hello Js"))
