@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Lahiru",
+        "age": 18,
+        "address": "Panadura",
+        "e-mail": "lahiri023@.com"
+    },
+    {
+        "id": 2,
+        "name": "Ruvishan",
+        "age": 19,
+        "address": "Anuradhapura",
+        "e-mail": "ruvishan076@.com"
+    },
+    {
+        "id": 3,
+        "name": "Inasara",
+        "age": 20,
+        "address": "Mathara",
+        "e-mail": "ok06@.com"
+    },
+    {
+        "id": 4,
+        "name": "Perera",
+        "age": 23,
+        "address": "Galle",
+        "e-mail": "lanka0023@.com"
+    }
+]

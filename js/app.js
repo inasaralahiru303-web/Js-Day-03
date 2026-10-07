@@ -143,3 +143,25 @@ const studentList = [
 let foundStudent = studentList.find(student => student.name == "Lahiru" );
 console.log(foundStudent);
 
+
+
+//====== JSON - java object natation =======
+//res - response
+fetch("https://jsonplaceholder.typicode.com/posts/").then(res => res.json()).then(data => {
+    console.log(data);
+
+let tblItems = document.getElementById(tblItems);
+let tblBody = "";
+
+data.forEach(element => {
+    tblBody+=`<tr>
+    <td>${element.userId}</td>
+    <td>${element.id}</td>
+    <td>${element.title}</td>
+    <td>${element.body}</td>
+    </tr>
+    `;
+});
+tblItems.innerHTML = tblBody;
+
+});
